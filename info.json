@@ -1,0 +1,72 @@
+{
+  "resume": {
+    "webp": "/assets/apps/resume/resume.webp",
+    "pdf": "/assets/apps/resume/resumeMitchIvin.pdf"
+  },
+  "about": {
+    "paragraphs": [
+      "I'm Mitch, a graphic designer based in Brisbane, Australia. I work at the intersection of creativity and intent, shaped by a lifelong passion for sport. I spent my school years at Brisbane Boys' College, where I learned the value of camaraderie, discipline, and shared purpose.",
+      "Growing up in New Zealand, my early years were shaped by rugby. It opened the door to creative thinking and gave me space to visualise ideas, act under pressure, and communicate with intent. I learned to think on my feet, stay composed, and trust instinct when everything moved fast. On the field, I felt in control, confident in my decisions, and sure of my role.",
+      "Being surrounded by the culture of the All Blacks showed me the power of visual identity. It wasn't just performance that inspired people, it was the way everything looked and felt. That's when I realised design is more than appearance. It carries meaning, builds pride, and connects people.",
+      "I committed to design in my twenties. Studying at QLD TAFE and working on real projects that demanded sharp thinking, adaptability, and follow-through. Since then, I've stayed open to anything that improves the work, whether through smarter tools, tighter process, or new ways to push an idea further.",
+      "It took time to find something that fueled me like sport, but design gave me that same drive and focus. I care about the detail, the craft, and the standard I hold myself to. My long-term goal is to bring that to a major sports franchise and build something lasting."
+    ],
+    "p1": "/assets/apps/about/p1.webp",
+    "p2": "/assets/apps/about/p2.webp",
+    "p3": "/assets/apps/about/p3.webp",
+    "p4": "/assets/apps/about/p4.webp",
+    "p5": "/assets/apps/about/p5.webp",
+    "skills": [
+      "Social Graphics",
+      "Web Design",
+      "Video Production",
+      "Print Design",
+      "Motion Graphics"
+    ],
+    "skillsIcons": [
+      "/assets/apps/about/skill1.webp",
+      "/assets/apps/about/skill2.webp",
+      "/assets/apps/about/skill3.webp",
+      "/assets/apps/about/skill4.webp",
+      "/assets/apps/about/skill5.webp"
+    ],
+    "software": [
+      "Adobe Creative Cloud",
+      "Wordpress",
+      "HTML/CSS/JS",
+      "Blender 3D",
+      "ChatGPT"
+    ],
+    "softwareIcons": [
+      "/assets/gui/start-menu/vanity-apps/creative-cloud.webp",
+      "/assets/gui/start-menu/vanity-apps/wordpress.webp",
+      "/assets/gui/start-menu/vanity-apps/htmlcssjs.webp",
+      "/assets/gui/start-menu/vanity-apps/blender.webp",
+      "/assets/gui/start-menu/vanity-apps/chatgpt.webp"
+    ]
+  },
+  "contact": {
+    "name": "Mitch Ivin",
+    "email": "mitchellivin@gmail.com"
+  },
+  "socials": [
+    {
+      "key": "instagram",
+      "name": "Instagram",
+      "icon": "assets/gui/start-menu/instagram.webp",
+      "url": "https://www.instagram.com/mitchivin"
+    },
+    {
+      "key": "github",
+      "name": "Github",
+      "icon": "assets/gui/start-menu/github.webp",
+      "url": "https://github.com/mitchivin"
+    },
+    {
+      "key": "linkedin",
+      "name": "LinkedIn",
+      "icon": "assets/gui/start-menu/linkedin.webp",
+      "url": "https://www.linkedin.com/in/mitchivin/"
+    }
+  ]
+}

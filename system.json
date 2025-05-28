@@ -1,0 +1,10 @@
+{
+  "loading": "assets/gui/boot/loading.webp",
+  "userIcon": "assets/gui/boot/userlogin.webp",
+  "wallpaperDesktop": "assets/gui/bgs/bliss.webp",
+  "wallpaperMobile": "assets/gui/bgs/blissMobile.webp",
+  "balloon": {
+    "title": "Welcome to my portfolio",
+    "body": "It's also the most accurate XP recreation online.<br>Built from scratch, to the pixel, by me :)"
+  }
+}
