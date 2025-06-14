@@ -54,19 +54,22 @@
       "key": "instagram",
       "name": "Instagram",
       "icon": "assets/gui/start-menu/instagram.webp",
-      "url": "https://www.instagram.com/mitchivin"
+      "url": "https://www.instagram.com/mitchivin",
+      "showInAbout": true
     },
     {
       "key": "github",
       "name": "Github",
       "icon": "assets/gui/start-menu/github.webp",
-      "url": "https://github.com/mitchivin"
+      "url": "https://github.com/mitchivin",
+      "showInAbout": true
     },
     {
       "key": "linkedin",
       "name": "LinkedIn",
       "icon": "assets/gui/start-menu/linkedin.webp",
-      "url": "https://www.linkedin.com/in/mitchivin/"
+      "url": "https://www.linkedin.com/in/mitchivin/",
+      "showInAbout": true
     }
   ]
 }
