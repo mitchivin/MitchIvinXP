@@ -1,24 +1,5 @@
 [
   {
-    "type": "image",
-    "src": "assets/apps/projects/game-time-graphics/all-blacks-final-score.webp",
-    "images": [
-      "assets/apps/projects/game-time-graphics/mavs-final-score.webp",
-      "assets/apps/projects/game-time-graphics/blues-starting-xv.webp",
-      "assets/apps/projects/game-time-graphics/gameday-blues.webp"
-    ],
-    "title": "Game Day Graphics",
-    "subtitle": "Post-match visuals delivering results with clarity, emotion, and brand alignment.",
-    "description": "A versatile suite of game time graphics designed for every stage of the match cycle. From pre-game lineups to final scores, each piece is built to inform, engage, and reinforce brand identity across platforms.",
-    "bulletPoints": [
-      "Consistent framework tailored for pre and post-game use",
-      "Emphasis on clarity, team identity, and match context",
-      "Flexible layouts suited to a range of content types"
-    ],
-    "toolsUsed": ["Photoshop", "Illustrator"],
-    "alt": "Game-Time Graphics"
-  },    
-  {
     "type": "video",
     "src": "assets/apps/projects/event-commissions/jason-leonard-thumb.mp4",
     "poster": "assets/apps/projects/event-commissions/jason-leonard-poster.webp",
@@ -32,9 +13,9 @@
         "poster": "assets/apps/projects/event-commissions/adam-ashley-cooper-poster.webp"
       }
     ],
-    "title": "Lions Rugby Luncheon",
-    "subtitle": "Commissioned event videos for annual rugby luncheon, covering highlights and key moments.",
-    "description": "Produced a series of intro videos, highlight reels, and extended background edits for client's annea Lions Rugby Luncheon. Each video was tailored for key moments and multi-screen display, delivered in various resolutions to suit the event’s technical needs, and featured legendary players as event speakers, serving as their official on-stage introductions.",
+    "title": "Event Work Reel",
+    "subtitle": "Commissioned videos for live events and stage intros.",
+    "description": "Produced a series of event videos across multiple commissions, including player introductions, highlight reels, and background visuals. Each video was built for large-screen projection and tailored to match the pacing, tone, and technical setup of the event. Featured speakers included professional rugby players.",
     "bulletPoints": [
       "Jason Leonard (ENG)",
       "Adam Ashley-Cooper (AUS)"
@@ -45,26 +26,60 @@
   },
   {
     "type": "image",
+    "src": "assets/apps/projects/game-time-graphics/mavs-final-score.webp",
+    "images": [
+      "assets/apps/projects/game-time-graphics/all-blacks-final-score.webp",
+      "assets/apps/projects/game-time-graphics/blues-starting-xv.webp"      
+    ],
+    "title": "Game Day Graphics",
+    "subtitle": "Matchday visuals including lineups, gameday tiles, and fulltime results.",
+    "description": "Created a set of individual athlete graphics as personal design studies. Each piece explored different approaches to tone, lighting, and layout without using templates or team branding. Focused on building clean, high-impact visuals through image manipulation and composition.",
+    "bulletPoints": [
+      "Consistent framework tailored for pre and post-game use",
+      "Emphasis on clarity, team identity, and match context",
+      "Flexible layouts suited to a range of content types"
+    ],
+    "toolsUsed": ["Photoshop, Illustrator"],
+    "alt": "Game-Time Graphics"
+  },    
+  {
+    "type": "image",
     "src": "assets/apps/projects/marky/marky-thumb.webp",
     "images": [
       "assets/apps/projects/marky/marky1.webp",
       "assets/apps/projects/marky/marky2.webp",
       "assets/apps/projects/marky/marky3.webp",
       "assets/apps/projects/marky/marky4.webp",
-      "assets/apps/projects/marky/marky5.webp",
-      "assets/apps/projects/marky/marky6.webp"
+      "assets/apps/projects/marky/marky5.webp"
     ],
     "title": "Video Clipper",
     "subtitle": "Rapid-fire video clipping app built to streamline video production workflow.",
-    "description": "A tool built to cut long-form video down to size. Marky rethinks the clipping process, removing friction and speeding up every step from mark-in to export. The project explores UI clarity, workflow efficiency, and a “just-what-you-need” philosophy for content processing at any scale.",
+    "description": "A custom desktop app built for clipping video with speed and precision. Marky lets you import or download footage, scrub cleanly, mark in and out points, and export clips fast. Designed with a minimal UI and built for real workflows using local tools and a focused feature set.",
     "bulletPoints": [
-      "Designed to tackle oversized or unwieldy video files",
-      "Focuses on clarity, control, and fast segmentation",
-      "Adapts workflow to match the pace and scale of any project"
+      "Imports video or downloads via URL",
+      "Frame-accurate timeline scrubbing",
+      "Fast clip export using ffmpeg under the hood"
     ],
     "toolsUsed": ["VS Code, Generative AI"],
     "alt": "Creative Composites"
   }, 
+  {
+    "type": "image",
+    "src": "assets/apps/projects/creative-composites/patrickmahomes.webp",
+    "images": [
+      "assets/apps/projects/creative-composites/minnesotas-coldest.webp"
+    ],
+    "title": "Hero Graphics",
+    "subtitle": "Stylised athlete edits and high-impact Photoshop visuals.",
+    "description": "A collection of image-based design work built through Photoshop. This project explores compositing, retouching, and visual manipulation as tools to push style, technique, and creative direction across different subjects and formats.",
+    "bulletPoints": [
+      "Designed to highlight individuality and presence",
+      "Balances composition, contrast, and scale",
+      "Adapts style to suit each player and moment"
+    ],
+    "toolsUsed": ["Photoshop"],
+    "alt": "Creative Composites"
+  },
   {
     "type": "image",
     "src": "assets/apps/projects/portfolioxp/image1.webp",
@@ -78,32 +93,14 @@
     ],
     "title": "MitchIvin XP",
     "subtitle": "A fully interactive Windows XP simulation reimagined as a design portfolio experience.",
-    "description": "A fully interactive portfolio built inside a custom-coded Windows XP simulation. Designed to feel like a living OS, this project showcases my work through functional apps, retro UI, and immersive detail. Every element, from the boot screen to the toolbars, is crafted to reflect originality and precision.",
+    "description": "A fully interactive portfolio built inside a custom Windows XP simulation. Made to feel like a working OS, it includes functional apps, retro UI, and detailed screens built from scratch. Every part, from the boot screen to the desktop, was designed to show execution, control, and originality.",
     "bulletPoints": [
       "Fully navigable desktop with mobile support",
       "Built from scratch using HTML, CSS, and JavaScript",
-      "Emphasizes creative direction, technical execution, and detail-driven design"
+      "Focused on detail, interface design, and creative direction"
     ],
     "toolsUsed": ["HTML/CSS/JS, Generative AI, Illustrator, Photoshop"],
     "alt": "Portfolio XP"
-  },
-  {
-    "type": "image",
-    "src": "assets/apps/projects/creative-composites/patrickmahomes.webp",
-    "images": [
-      "assets/apps/projects/creative-composites/barkley-big-head.webp",
-      "assets/apps/projects/creative-composites/minnesotas-coldest.webp"
-    ],
-    "title": "Creative Composites",
-    "subtitle": "Photoshop-driven image manipulation and design exploration.",
-    "description": "A collection of image-based design work built through Photoshop. This project explores compositing, retouching, and visual manipulation as tools to push style, technique, and creative direction across different subjects and formats.",
-    "bulletPoints": [
-      "Designed to highlight individuality and presence",
-      "Balances composition, contrast, and scale",
-      "Adapts style to suit each player and moment"
-    ],
-    "toolsUsed": ["Photoshop, Illustrator"],
-    "alt": "Creative Composites"
   },
   {
     "type": "video",
@@ -115,17 +112,13 @@
         "poster": "assets/apps/projects/highlight-reels/flashback-poster.webp"
       },
       {
-        "src": "assets/apps/projects/highlight-reels/suaalii-switch-up.mp4",
-        "poster": "assets/apps/projects/highlight-reels/suaalii-switch-up-poster.webp"
-      },
-      {
         "src": "assets/apps/projects/highlight-reels/saquon-snow-day.mp4",
         "poster": "assets/apps/projects/highlight-reels/saquon-snow-day-poster.webp"
       }
     ],
-    "title": "Highlight Reels",
+    "title": "Social Reels",
     "subtitle": "Fast-paced edits capturing key moments, emotion, and story.",
-    "description": "A collection of highlight reels designed to amplify big plays, emotional moments, and live energy. Formats range from music-driven edits to voiceover-led narratives, each tailored to the pace and feel of the sport.",
+    "description": "Cut a collection of short-form video edits for personal socials. Each piece explores rhythm, flow, and pacing using gameplay footage and music. Edited for punch, tested across formats, and built without client restrictions.",
     "bulletPoints": [
       "Built for hype, emotion, and impact",
       "Covers multiple sports and styles",
