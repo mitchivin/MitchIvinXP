@@ -6,7 +6,7 @@
     "images": [
       {
         "src": "assets/apps/projects/event-work/aac.mp4",
-        "poster": "assets/apps/projects/event-work/aac.webp"
+        "poster": "assets/apps/projects/event-work/aac-poster.webp"
       },
       {
         "src": "assets/apps/projects/event-work/jason-leonard.mp4",
@@ -28,7 +28,7 @@
     "type": "image",
     "src": "assets/apps/projects/game-day/mavs-final.webp",
     "images": [
-      "assets/apps/projects/game-day/all-blacks-final.webp",
+      "assets/apps/projects/game-day/abs-final.webp",
       "assets/apps/projects/game-day/blues-xv.webp"      
     ],
     "title": "Game Day Graphics",
@@ -112,8 +112,8 @@
         "poster": "assets/apps/projects/social-reels/lbj-poster.webp"
       },
       {
-        "src": "assets/apps/projects/social-reels/saquon-snow-day.mp4",
-        "poster": "assets/apps/projects/social-reels/saquon-snow-day-poster.webp"
+        "src": "assets/apps/projects/social-reels/dc.mp4",
+        "poster": "assets/apps/projects/social-reels/dc-poster.webp"
       }
     ],
     "title": "Social Reels",
