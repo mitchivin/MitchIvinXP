@@ -1,16 +1,16 @@
 [
   {
     "type": "video",
-    "src": "assets/apps/projects/event-commissions/jason-leonard-thumb.mp4",
-    "poster": "assets/apps/projects/event-commissions/jason-leonard-poster.webp",
+    "src": "assets/apps/projects/event-work/aac-thumb.mp4",
+    "poster": "assets/apps/projects/event-work/aac-poster.webp",
     "images": [
       {
-        "src": "assets/apps/projects/event-commissions/jason-leonard.mp4",
-        "poster": "assets/apps/projects/event-commissions/jason-leonard-poster.webp"
+        "src": "assets/apps/projects/event-work/aac.mp4",
+        "poster": "assets/apps/projects/event-work/aac.webp"
       },
       {
-        "src": "assets/apps/projects/event-commissions/adam-ashley-cooper.mp4",
-        "poster": "assets/apps/projects/event-commissions/adam-ashley-cooper-poster.webp"
+        "src": "assets/apps/projects/event-work/jason-leonard.mp4",
+        "poster": "assets/apps/projects/event-work/jason-leonard-poster.webp"
       }
     ],
     "title": "Event Work Reel",
@@ -22,14 +22,14 @@
     ],
     "toolsUsed": ["Premiere Pro", "After Effects"],
     "workType": "client",
-    "alt": "Lions Rugby Luncheon"
+    "alt": "Event Work Reel"
   },
   {
     "type": "image",
-    "src": "assets/apps/projects/game-time-graphics/mavs-final-score.webp",
+    "src": "assets/apps/projects/game-day/mavs-final.webp",
     "images": [
-      "assets/apps/projects/game-time-graphics/all-blacks-final-score.webp",
-      "assets/apps/projects/game-time-graphics/blues-starting-xv.webp"      
+      "assets/apps/projects/game-day/all-blacks-final.webp",
+      "assets/apps/projects/game-day/blues-xv.webp"      
     ],
     "title": "Game Day Graphics",
     "subtitle": "Matchday visuals including lineups, gameday tiles, and fulltime results.",
@@ -40,7 +40,7 @@
       "Flexible layouts suited to a range of content types"
     ],
     "toolsUsed": ["Photoshop, Illustrator"],
-    "alt": "Game-Time Graphics"
+    "alt": "Game Day Graphics"
   },    
   {
     "type": "image",
@@ -61,13 +61,13 @@
       "Fast clip export using ffmpeg under the hood"
     ],
     "toolsUsed": ["VS Code, Generative AI"],
-    "alt": "Creative Composites"
+    "alt": "Video Clipper"
   }, 
   {
     "type": "image",
-    "src": "assets/apps/projects/creative-composites/patrickmahomes.webp",
+    "src": "assets/apps/projects/hero-graphics/patrickmahomes.webp",
     "images": [
-      "assets/apps/projects/creative-composites/minnesotas-coldest.webp"
+      "assets/apps/projects/hero-graphics/minnesotas-coldest.webp"
     ],
     "title": "Hero Graphics",
     "subtitle": "Stylised athlete edits and high-impact Photoshop visuals.",
@@ -78,18 +78,18 @@
       "Adapts style to suit each player and moment"
     ],
     "toolsUsed": ["Photoshop"],
-    "alt": "Creative Composites"
+    "alt": "Hero Graphics"
   },
   {
     "type": "image",
-    "src": "assets/apps/projects/portfolioxp/image1.webp",
+    "src": "assets/apps/projects/mitchivinxp/image1.webp",
     "images": [
-      "assets/apps/projects/portfolioxp/image1.webp",
-      "assets/apps/projects/portfolioxp/image2.webp",
-      "assets/apps/projects/portfolioxp/image3.webp",
-      "assets/apps/projects/portfolioxp/image4.webp",
-      "assets/apps/projects/portfolioxp/image5.webp",
-      "assets/apps/projects/portfolioxp/image6.webp"
+      "assets/apps/projects/mitchivinxp/image1.webp",
+      "assets/apps/projects/mitchivinxp/image2.webp",
+      "assets/apps/projects/mitchivinxp/image3.webp",
+      "assets/apps/projects/mitchivinxp/image4.webp",
+      "assets/apps/projects/mitchivinxp/image5.webp",
+      "assets/apps/projects/mitchivinxp/image6.webp"
     ],
     "title": "MitchIvin XP",
     "subtitle": "A fully interactive Windows XP simulation reimagined as a design portfolio experience.",
@@ -100,20 +100,20 @@
       "Focused on detail, interface design, and creative direction"
     ],
     "toolsUsed": ["HTML/CSS/JS, Generative AI, Illustrator, Photoshop"],
-    "alt": "Portfolio XP"
+    "alt": "MitchIvin XP"
   },
   {
     "type": "video",
-    "src": "assets/apps/projects/highlight-reels/flashback-thumb.mp4",
-    "poster": "assets/apps/projects/highlight-reels/flashback-poster.webp",
+    "src": "assets/apps/projects/social-reels/lbj-thumb.mp4",
+    "poster": "assets/apps/projects/social-reels/lbj-poster.webp",
     "images": [
       {
-        "src": "assets/apps/projects/highlight-reels/flashback.mp4",
-        "poster": "assets/apps/projects/highlight-reels/flashback-poster.webp"
+        "src": "assets/apps/projects/social-reels/lbj.mp4",
+        "poster": "assets/apps/projects/social-reels/lbj-poster.webp"
       },
       {
-        "src": "assets/apps/projects/highlight-reels/saquon-snow-day.mp4",
-        "poster": "assets/apps/projects/highlight-reels/saquon-snow-day-poster.webp"
+        "src": "assets/apps/projects/social-reels/saquon-snow-day.mp4",
+        "poster": "assets/apps/projects/social-reels/saquon-snow-day-poster.webp"
       }
     ],
     "title": "Social Reels",
@@ -125,6 +125,6 @@
       "Edits tailored for each platform and audience"
     ],
     "toolsUsed": ["Premiere Pro", "After Effects"],
-    "alt": "Highlight Reels"
+    "alt": "Social Reels"
   }
 ]
