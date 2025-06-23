@@ -105,15 +105,15 @@
   {
    "type": "video",
     "src": "assets/apps/projects/social-reels/lbj-thumb.mp4",
-    "poster": "assets/apps/projects/event-work/aac-poster.webp",
+    "poster": "assets/apps/projects/social-reels/lbj-poster.webp",
     "images": [
       {
         "src": "assets/apps/projects/social-reels/dc.mp4",
-        "poster": "assets/apps/projects/event-work/dc-poster.webp"
+        "poster": "assets/apps/projects/social-reels/dc-poster.webp"
       },
       {
         "src": "assets/apps/projects/social-reels/lbj.mp4",
-        "poster": "assets/apps/projects/event-work/jason-leonard-poster.webp"
+        "poster": "assets/apps/projects/social-reels/lbj-poster.webp"
       }
     ],
     "title": "Social Reels",
