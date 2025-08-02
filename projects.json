@@ -1,130 +1,165 @@
 [
   {
     "type": "video",
-    "src": "assets/apps/projects/event-work/aac-thumb.mp4",
-    "poster": "assets/apps/projects/event-work/aac-poster.webp",
+    "category": "Video",
+    "title": "ACGS Rugby Luncheon",
+    "subtitle": "Multi-screen video package for prestigious Lions tour event featuring international rugby legends",
+    "description": "Created a comprehensive video package for The Anglican Church Grammar School's prestigious rugby lunch at The Star, held during the British and Irish Lions tour year. The project included player introduction videos for three international rugby legends (Adam Ashley-Cooper, Rory Best, and Jason Leonard) and a 10-minute highlight reel of the 2013 Lions tour that welcomed 1100 guests as they entered the venue.<br><br>Each player's career highlights were crafted to sync with their stage entrance across a five-screen display setup, with legendary Australian commentator Greg Clark as MC. The introduction videos celebrated each legend's defining moments, representing Australia, Ireland, and England respectively.<br><br>Working with The Star's cutting-edge display technology required upscaling all archival footage to 4K 60fps, ensuring every try, tackle, and defining moment hit with maximum visual impact in the venue.",
+    "workType": "client",
+    "orientation": "landscape",
+    "alt": "ACGS Rugby Luncheon",
+    "defaultSlide": 2,
+    "bulletPoints": ["Upscaled to 4k 60FPS", "Live event intergration", "Premium Venue Delivery"],
+    "toolsUsed": ["Premiere Pro", "Davinci Resolve", "Topaz Video Ai"],
+    "src": "assets/apps/projects/event-work/thumb.mp4",
+    "srcMobile": "assets/apps/projects/event-work/mobile-thumb.mp4",
+    "poster": "assets/apps/projects/event-work/poster.webp",
     "images": [
       {
-        "src": "assets/apps/projects/event-work/aac.mp4",
-        "poster": "assets/apps/projects/event-work/aac-poster.webp"
+        "src": "assets/apps/projects/event-work/rory-best.mp4",
+        "poster": "assets/apps/projects/event-work/poster.webp",
+        "alt": "Rory Best Introduction"
       },
       {
         "src": "assets/apps/projects/event-work/jason-leonard.mp4",
-        "poster": "assets/apps/projects/event-work/jason-leonard-poster.webp"
-      }
-    ],
-    "title": "Event Work Reel",
-    "subtitle": "Commissioned videos for live events and stage intros.",
-    "description": "Produced a series of event videos across multiple commissions, including player introductions, highlight reels, and background visuals. Each video was built for large-screen projection and tailored to match the pacing, tone, and technical setup of the event. Featured speakers included professional rugby players.",
-    "bulletPoints": [
-      "Jason Leonard (ENG)",
-      "Adam Ashley-Cooper (AUS)"
-    ],
-    "toolsUsed": ["Premiere Pro", "After Effects"],
-    "workType": "client",
-    "alt": "Event Work Reel"
-  },
-  {
-    "type": "image",
-    "src": "assets/apps/projects/game-day/mavs-final.webp",
-    "images": [
-      "assets/apps/projects/game-day/abs-final.webp",
-      "assets/apps/projects/game-day/blues-xv.webp"      
-    ],
-    "title": "Game Day Graphics",
-    "subtitle": "Matchday visuals including lineups, gameday tiles, and fulltime results.",
-    "description": "Created a set of individual athlete graphics as personal design studies. Each piece explored different approaches to tone, lighting, and layout without using templates or team branding. Focused on building clean, high-impact visuals through image manipulation and composition.",
-    "bulletPoints": [
-      "Consistent framework tailored for pre and post-game use",
-      "Emphasis on clarity, team identity, and match context",
-      "Flexible layouts suited to a range of content types"
-    ],
-    "toolsUsed": ["Photoshop, Illustrator"],
-    "alt": "Game Day Graphics"
-  },    
-  {
-    "type": "image",
-    "src": "assets/apps/projects/marky/marky-thumb.webp",
-    "images": [
-      "assets/apps/projects/marky/marky1.webp",
-      "assets/apps/projects/marky/marky2.webp",
-      "assets/apps/projects/marky/marky3.webp",
-      "assets/apps/projects/marky/marky4.webp",
-      "assets/apps/projects/marky/marky5.webp"
-    ],
-    "title": "Video Clipper",
-    "subtitle": "Rapid-fire video clipping app built to streamline video production workflow.",
-    "description": "A custom desktop app built for clipping video with speed and precision. Marky lets you import or download footage, scrub cleanly, mark in and out points, and export clips fast. Designed with a minimal UI and built for real workflows using local tools and a focused feature set.",
-    "bulletPoints": [
-      "Imports video or downloads via URL",
-      "Frame-accurate timeline scrubbing",
-      "Fast clip export using ffmpeg under the hood"
-    ],
-    "toolsUsed": ["VS Code, Generative AI"],
-    "alt": "Video Clipper"
-  }, 
-  {
-    "type": "image",
-    "src": "assets/apps/projects/hero-graphics/patrickmahomes.webp",
-    "images": [
-      "assets/apps/projects/hero-graphics/minnesotas-coldest.webp"
-    ],
-    "title": "Hero Graphics",
-    "subtitle": "Stylised athlete edits and high-impact Photoshop visuals.",
-    "description": "A collection of image-based design work built through Photoshop. This project explores compositing, retouching, and visual manipulation as tools to push style, technique, and creative direction across different subjects and formats.",
-    "bulletPoints": [
-      "Designed to highlight individuality and presence",
-      "Balances composition, contrast, and scale",
-      "Adapts style to suit each player and moment"
-    ],
-    "toolsUsed": ["Photoshop"],
-    "alt": "Hero Graphics"
-  },
-  {
-    "type": "image",
-    "src": "assets/apps/projects/mitchivinxp/image1.webp",
-    "images": [
-      "assets/apps/projects/mitchivinxp/image1.webp",
-      "assets/apps/projects/mitchivinxp/image2.webp",
-      "assets/apps/projects/mitchivinxp/image3.webp",
-      "assets/apps/projects/mitchivinxp/image4.webp",
-      "assets/apps/projects/mitchivinxp/image5.webp",
-      "assets/apps/projects/mitchivinxp/image6.webp"
-    ],
-    "title": "MitchIvin XP",
-    "subtitle": "A fully interactive Windows XP simulation reimagined as a design portfolio experience.",
-    "description": "A fully interactive portfolio built inside a custom Windows XP simulation. Made to feel like a working OS, it includes functional apps, retro UI, and detailed screens built from scratch. Every part, from the boot screen to the desktop, was designed to show execution, control, and originality.",
-    "bulletPoints": [
-      "Fully navigable desktop with mobile support",
-      "Built from scratch using HTML, CSS, and JavaScript",
-      "Focused on detail, interface design, and creative direction"
-    ],
-    "toolsUsed": ["HTML/CSS/JS, Generative AI, Illustrator, Photoshop"],
-    "alt": "MitchIvin XP"
-  },
-  {
-   "type": "video",
-    "src": "assets/apps/projects/social-reels/lbj-thumb.mp4",
-    "poster": "assets/apps/projects/social-reels/lbj-poster.webp",
-    "images": [
-      {
-        "src": "assets/apps/projects/social-reels/dc.mp4",
-        "poster": "assets/apps/projects/social-reels/dc-poster.webp"
+        "poster": "assets/apps/projects/event-work/poster.webp",
+        "alt": "Jason Leonard Introduction"
       },
       {
-        "src": "assets/apps/projects/social-reels/lbj.mp4",
-        "poster": "assets/apps/projects/social-reels/lbj-poster.webp"
+        "src": "assets/apps/projects/event-work/aac.mp4",
+        "poster": "assets/apps/projects/event-work/poster.webp",
+        "alt": "Adam Ashley-Cooper Introduction"
       }
     ],
-    "title": "Social Reels",
-    "subtitle": "Fast-paced edits capturing key moments, emotion, and story.",
-    "description": "Cut a collection of short-form video edits for personal socials. Each piece explores rhythm, flow, and pacing using gameplay footage and music. Edited for punch, tested across formats, and built without client restrictions.",
+    "launchButton": {
+      "text": "Open in Media Player",
+      "programName": "mediaPlayer"
+    },
+    "mobileLaunchButton": {
+      "text": "View on Youtube",
+      "url": "https://www.youtube.com/playlist?list=PLgwcgfCVaMC2H_T2lZMZpGebbBLJYmciq"
+    }
+  },
+  {
+    "type": "image",
+    "category": "Social",
+    "title": "Game Time Graphics",
+    "subtitle": "Personal exploration of dynamic game time graphics for social media across various sports",
+    "description": "A personal exploration of game time graphics showcasing diverse approaches to sports social media content. This collection features final scores, team lineups, gameday hype posts, and match announcements across various sports. Each piece stands independently, demonstrating different visual styles and techniques.<br><br>The designs combine traditional Photoshop workflows with AI tools to create engaging social content that captures the energy and excitement of game time. From bold typography treatments to dynamic player imagery, each graphic explores different ways to present sports information while maintaining visual impact.<br><br>This ongoing collection serves as both a creative outlet and a testing ground for new techniques in sports marketing design.",
+    "workType": "personal",
+    "orientation": "portrait",
+    "alt": "Game Day Graphics",
+    "defaultSlide": 4,
     "bulletPoints": [
-      "Built for hype, emotion, and impact",
-      "Covers multiple sports and styles",
-      "Edits tailored for each platform and audience"
+      "Diverse sports social media graphics",
+      "Photoshop and AI tool integration",
+      "Personal creative exploration"
     ],
-    "toolsUsed": ["Premiere Pro", "After Effects"],
-    "alt": "Social Reels"
+    "toolsUsed": ["Photoshop", "Illustrator", "ChatGPT", "Sora"],
+    "src": "assets/apps/projects/game-day/game-day-thumb.webp",
+    "srcMobile": "assets/apps/projects/game-day/game-day-thumb-mobile.webp",
+    "images": [
+      {
+        "src": "assets/apps/projects/game-day/abs-final.webp",
+        "alt": "All Blacks Final Score"
+      },
+      {
+        "src": "assets/apps/projects/game-day/blues-xv.webp",
+        "alt": "Blues XV Team Lineup"
+      },
+      {
+        "src": "assets/apps/projects/game-day/pat-mahomes.webp",
+        "alt": "Patrick Mahomes - Player Spotlight"
+      },
+      {
+        "src": "assets/apps/projects/game-day/mavs-final.webp",
+        "alt": "Dallas Mavericks beat Minnesota Timberwolves"
+      },
+      {
+        "src": "assets/apps/projects/game-day/squid-game.webp",
+        "alt": "Lions Tour 2025 - Red Light, Green Light"
+      }
+    ],
+    "launchButton": {
+      "text": "Open in Image Viewer",
+      "programName": "image-viewer"
+    }
+  },
+  {
+    "type": "iframe",
+    "category": "Web",
+    "title": "CSS Score Bug",
+    "subtitle": "Transform static design into functional CSS component with dynamic content capabilities",
+    "description": "Commissioned to transform a static scorebug design into a functional CSS-based component. Working from a provided design mockup, I built the scorebug to client specifications without using SVGs, ensuring it could integrate directly into their existing codebase.<br><br>The component allows the client to update all dynamic elements including team names, scores, and colors through their codebase without requiring additional design assets. Built with modular CSS that maintains the original design while providing flexibility for content updates.<br><br>Leveraged AI tools to streamline the development process, focusing on design accuracy and client requirements while ensuring clean, functional code output.",
+    "workType": "client",
+    "orientation": "landscape",
+    "alt": "CSS Score Bug",
+    "defaultSlide": 4,
+    "useIframe": true,
+    "iframeSrc": "./projects/scorebug/scorebug-iframe.html",
+    "mobileImage": "assets/apps/projects/scorebug/scorebug-thumb.webp",
+    "bulletPoints": [
+      "Pure CSS implementation",
+      "Direct codebase integration",
+      "Dynamic content support"
+    ],
+    "toolsUsed": ["HTML/CSS", "VS Code", "Git Co-pilot"],
+    "src": "assets/apps/projects/scorebug/scorebug-thumb.webp",
+    "srcMobile": "assets/apps/projects/scorebug/scorebug-thumb-mobile.webp",
+    "images": [
+      {
+        "src": "assets/apps/projects/scorebug/scorebug1.webp",
+        "alt": "Score Bug V1"
+      },
+      {
+        "src": "assets/apps/projects/scorebug/scorebug2.webp",
+        "alt": "Score Bug V2"
+      },
+      {
+        "src": "assets/apps/projects/scorebug/scorebug3.webp",
+        "alt": "Score Bug V3"
+      }
+    ]
+  },
+  {
+    "type": "video",
+    "category": "Web",
+    "title": "MitchIvin XP",
+    "subtitle": "Nostalgic operating system recreated as fully interactive portfolio with authentic Windows functionality",
+    "description": "A fully functional Windows XP interface reimagined as a modern portfolio website. This project transforms nostalgia into an interactive experience where portfolio sections become native Windows programs, complete with draggable windows, resizing functionality, and an authentic start menu system.<br><br>Built from scratch using HTML, CSS, and JavaScript, the site features a working Windows Media Player interface with embedded YouTube controls, an era-appropriate MP3 player, and every Windows interaction you remember - from the desktop selection box to double-click desktop icons. The window management system includes proper stacking, taskbar integration, menubars, toolbars, and status bars that all function as expected.<br><br>What started as an ambitious vision with no coding background evolved through hundreds of hours of problem-solving, iteration, and meticulous attention to detail. Each Windows behavior had to be carefully recreated, tested, and refined. The real challenge came in making this desktop-first interface fully responsive while preserving the authentic experience across all devices. Some portfolio conventions were deliberately broken to maintain the Windows illusion.",
+    "workType": "personal",
+    "orientation": "landscape",
+    "alt": "MitchIvin XP",
+    "defaultSlide": 4,
+    "bulletPoints": [
+      "Mobile responsive UI design",
+      "Functional window management system",
+      "AI-assisted development from zero coding knowledge"
+    ],
+    "toolsUsed": ["HTML/CSS/JS", "VS Code", "Git Co-pilot"],
+    "src": "assets/apps/projects/mitchivinxp/thumb.mp4",
+    "srcMobile": "assets/apps/projects/mitchivinxp/thumb-mobile.mp4",
+    "images": [
+      {
+        "src": "assets/apps/projects/mitchivinxp/image1.webp",
+        "alt": "Windows XP desktop simulation overview"
+      },
+      {
+        "src": "assets/apps/projects/mitchivinxp/image2.webp",
+        "alt": "Interactive applications and windows"
+      },
+      {
+        "src": "assets/apps/projects/mitchivinxp/image3.webp",
+        "alt": "Boot sequence and login screen"
+      },
+      {
+        "src": "assets/apps/projects/mitchivinxp/image4.webp",
+        "alt": "Mobile responsive design adaptation"
+      },
+      {
+        "src": "assets/apps/projects/mitchivinxp/image5.webp",
+        "alt": "Detailed UI components and effects"
+      }
+    ]
   }
 ]

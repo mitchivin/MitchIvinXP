@@ -30,13 +30,7 @@
       "/assets/apps/about/skill4.webp",
       "/assets/apps/about/skill5.webp"
     ],
-    "software": [
-      "Adobe Creative Cloud",
-      "Wordpress",
-      "HTML/CSS/JS",
-      "Blender 3D",
-      "ChatGPT"
-    ],
+    "software": ["Adobe Creative Cloud", "Wordpress", "HTML/CSS/JS", "Blender 3D", "ChatGPT"],
     "softwareIcons": [
       "/assets/gui/start-menu/vanity-apps/creative-cloud.webp",
       "/assets/gui/start-menu/vanity-apps/wordpress.webp",
