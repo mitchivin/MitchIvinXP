@@ -16,6 +16,9 @@
   align-items: center;
   justify-content: center;
   pointer-events: none;
+  /* Avoid layout/paint when hidden */
+  content-visibility: auto;
+  contain-intrinsic-size: 100vh 100vw;
 }
 
 .global-popup-container:not([style*='display: none']) {
@@ -33,6 +36,10 @@
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   pointer-events: auto;
+  /* Performance: isolate overlay painting and hint opacity changes */
+  contain: paint;
+  isolation: isolate;
+  will-change: opacity;
 }
 
 /* ===== Popup Content Wrapper ===== */
@@ -58,6 +65,10 @@
   transition:
     transform 0.2s ease-out,
     opacity 0.2s ease-out;
+  /* Promote and contain window for smoother transform */
+  contain: paint;
+  will-change: transform, opacity;
+  transform: translateZ(0) scale(0.9);
 }
 
 .popup-window.popup-active {
@@ -140,6 +151,11 @@
   flex-wrap: wrap;
 }
 
+/* Center single-button layouts */
+.popup-window .popup-buttons:has(.popup-action-btn:nth-child(1):last-child) {
+  justify-content: center;
+}
+
 .popup-action-btn {
   min-width: 80px;
   color: inherit !important; /* Override any inherited link colors */
@@ -161,41 +177,35 @@
   opacity: 1;
 }
 
-/* ===== Mobile Responsive ===== */
-@media (max-width: 767px) {
-  /* Special styling for mobile popup - restore XP.css window borders like music player */
-  .app-window.popup-window {
-    max-height: none !important; /* Allow custom height */
-    height: auto !important; /* Let content determine height */
-    width: 85vw !important; /* 85% of viewport width */
-    max-width: 85vw !important; /* Ensure it doesn't exceed 85vw */
-    min-width: 260px !important;
-    margin: 0 7.5vw;
+/* Mobile adjustments */
+.mobile-device .app-window.popup-window {
+  max-height: none !important; /* Allow custom height */
+  height: auto !important; /* Let content determine height */
+  width: 85vw !important; /* 85% of viewport width */
+  max-width: 85vw !important; /* Ensure it doesn't exceed 85vw */
+  min-width: 260px !important;
+  margin: 0 7.5vw;
 
-    /* Restore proper XP.css window styling - EXACTLY like music player */
-    border: 2px solid #284ffd !important; /* Use same border as desktop windows */
-    border-top-width: 1.5px !important; /* Match desktop window styling */
-    border-radius: 8px 8px 0px 0px !important; /* Match desktop window border radius */
-    box-shadow: 1px 1px 4px rgb(0 0 0 / 50%) !important; /* Match desktop window shadow */
-  }
+  /* Restore proper XP.css window styling - EXACTLY like music player */
+  border: 2px solid #284ffd !important; /* Use same border as desktop windows */
+  border-top-width: 1.5px !important; /* Match desktop window styling */
+  border-radius: 8px 8px 0px 0px !important; /* Match desktop window border radius */
+  box-shadow: 1px 1px 4px rgb(0 0 0 / 50%) !important; /* Match desktop window shadow */
+}
 
-  .popup-content {
-    padding: 12px 12px 12px 12px;
-  }
-
-  .popup-message {
-    font-size: 12px;
-  }
-
-  .popup-buttons {
-    gap: 6px;
-  }
-
-  .popup-action-btn {
-    min-width: 70px;
-    padding: 3px 10px;
-    font-size: 11px;
-  }
+.mobile-device .popup-content {
+  padding: 12px 12px 12px 12px;
+}
+.mobile-device .popup-message {
+  font-size: 12px;
+}
+.mobile-device .popup-buttons {
+  gap: 6px;
+}
+.mobile-device .popup-action-btn {
+  min-width: 70px;
+  padding: 3px 10px;
+  font-size: 11px;
 }
 
 /* ===== Desktop Only - Hide Mobile Popups ===== */

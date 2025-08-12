@@ -2,17 +2,19 @@
   {
     "type": "video",
     "category": "Video",
-    "title": "ACGS Rugby Luncheon",
-    "subtitle": "Multi-screen video package for prestigious Lions tour event featuring international rugby legends",
-    "description": "Created a comprehensive video package for The Anglican Church Grammar School's prestigious rugby lunch at The Star, held during the British and Irish Lions tour year. The project included player introduction videos for three international rugby legends (Adam Ashley-Cooper, Rory Best, and Jason Leonard) and a 10-minute highlight reel of the 2013 Lions tour that welcomed 1100 guests as they entered the venue.<br><br>Each player's career highlights were crafted to sync with their stage entrance across a five-screen display setup, with legendary Australian commentator Greg Clark as MC. The introduction videos celebrated each legend's defining moments, representing Australia, Ireland, and England respectively.<br><br>Working with The Star's cutting-edge display technology required upscaling all archival footage to 4K 60fps, ensuring every try, tackle, and defining moment hit with maximum visual impact in the venue.",
+    "title": "ACGS Rugby Lunch",
+  "headerButton": { "enabled": true, "label": "Open Media Player", "tooltip": "Open Built-In Media Player", "action": "openMediaPlayer" },
+    "subtitle": "Event video production featuring attending international rugby stars",
+    "brief": "The school commissioned video content for their rugby lunch at The Star during the 2025 British & Irish Lions tour to Australia. Required player introduction segments for three attending rugby legends. Adam Ashley-Cooper, Rory Best, and Jason Leonard; plus highlight reels from both the 2013 and 2025 Lions tours. All content needed to be optimized for The Star's large-format display screens.",
+    "description": "Created a comprehensive video package for The Anglican Church Grammar School's prestigious rugby lunch at The Star, held during the British and Irish Lions tour year. The project included player introduction videos for three international rugby legends (Adam Ashley-Cooper, Rory Best, and Jason Leonard), a 10-minute highlight reel of the 2013 Lions tour that welcomed 1100 guests as they entered the venue, and a 2025 highlights package.<br><br>Each player's career highlights were crafted to sync with their stage entrance across a five-screen display setup, with legendary Australian commentator Greg Clark as MC. The introduction videos celebrated each legend's defining moments, representing Australia, Ireland, and England respectively.<br><br>Working with The Star's cutting-edge display technology required upscaling all archival footage to 4K 60fps, ensuring every try, tackle, and defining moment hit with maximum visual impact in the venue.",
     "workType": "client",
     "orientation": "landscape",
-    "alt": "ACGS Rugby Luncheon",
+    "alt": "ACGS Rugby Lunch",
     "defaultSlide": 2,
     "bulletPoints": ["Upscaled to 4k 60FPS", "Live event intergration", "Premium Venue Delivery"],
     "toolsUsed": ["Premiere Pro", "Davinci Resolve", "Topaz Video Ai"],
     "src": "assets/apps/projects/event-work/thumb.mp4",
-    "srcMobile": "assets/apps/projects/event-work/mobile-thumb.mp4",
+    "srcMobile": "assets/apps/projects/event-work/thumb.mp4",
     "poster": "assets/apps/projects/event-work/poster.webp",
     "images": [
       {
@@ -30,22 +32,16 @@
         "poster": "assets/apps/projects/event-work/poster.webp",
         "alt": "Adam Ashley-Cooper Introduction"
       }
-    ],
-    "launchButton": {
-      "text": "Open in Media Player",
-      "programName": "mediaPlayer"
-    },
-    "mobileLaunchButton": {
-      "text": "View on Youtube",
-      "url": "https://www.youtube.com/playlist?list=PLgwcgfCVaMC2H_T2lZMZpGebbBLJYmciq"
-    }
+    ]
   },
   {
     "type": "image",
-    "category": "Social",
+    "category": "Image",
     "title": "Game Time Graphics",
-    "subtitle": "Personal exploration of dynamic game time graphics for social media across various sports",
-    "description": "A personal exploration of game time graphics showcasing diverse approaches to sports social media content. This collection features final scores, team lineups, gameday hype posts, and match announcements across various sports. Each piece stands independently, demonstrating different visual styles and techniques.<br><br>The designs combine traditional Photoshop workflows with AI tools to create engaging social content that captures the energy and excitement of game time. From bold typography treatments to dynamic player imagery, each graphic explores different ways to present sports information while maintaining visual impact.<br><br>This ongoing collection serves as both a creative outlet and a testing ground for new techniques in sports marketing design.",
+  "headerButton": { "enabled": true, "label": "Open Image Viewer", "tooltip": "Open Built-In Image Viewer", "programName": "image-viewer" },
+    "subtitle": "Dynamic social media graphics exploring sports visual identity",
+    "brief": "Ongoing exploration of different visual approaches for sports social media content. Creating a diverse collection of graphics including scores, lineups, hype posts, and match announcements while experimenting with combining traditional Photoshop workflows and AI tools.",
+    "description": "A personal exploration of game time graphics showcasing diverse approaches to sports social media content. This collection features final scores, team lineups, gameday hype posts, and match announcements across various sports. Each piece demonstrates different visual styles and techniques.<br><br>The designs combine traditional Photoshop workflows with AI tools to create engaging social content that captures the energy and excitement of game time. From bold typography treatments to dynamic player imagery, each graphic explores different ways to present sports information while maintaining visual impact.<br><br>This ongoing collection serves as both a creative outlet and a testing ground for new techniques in sports marketing design.",
     "workType": "personal",
     "orientation": "portrait",
     "alt": "Game Day Graphics",
@@ -56,8 +52,8 @@
       "Personal creative exploration"
     ],
     "toolsUsed": ["Photoshop", "Illustrator", "ChatGPT", "Sora"],
-    "src": "assets/apps/projects/game-day/game-day-thumb.webp",
-    "srcMobile": "assets/apps/projects/game-day/game-day-thumb-mobile.webp",
+    "src": "assets/apps/projects/game-day/blues-xv.webp",
+    "srcMobile": "assets/apps/projects/game-day/blues-xv.webp",
     "images": [
       {
         "src": "assets/apps/projects/game-day/abs-final.webp",
@@ -79,54 +75,16 @@
         "src": "assets/apps/projects/game-day/squid-game.webp",
         "alt": "Lions Tour 2025 - Red Light, Green Light"
       }
-    ],
-    "launchButton": {
-      "text": "Open in Image Viewer",
-      "programName": "image-viewer"
-    }
-  },
-  {
-    "type": "iframe",
-    "category": "Web",
-    "title": "CSS Score Bug",
-    "subtitle": "Transform static design into functional CSS component with dynamic content capabilities",
-    "description": "Commissioned to transform a static scorebug design into a functional CSS-based component. Working from a provided design mockup, I built the scorebug to client specifications without using SVGs, ensuring it could integrate directly into their existing codebase.<br><br>The component allows the client to update all dynamic elements including team names, scores, and colors through their codebase without requiring additional design assets. Built with modular CSS that maintains the original design while providing flexibility for content updates.<br><br>Leveraged AI tools to streamline the development process, focusing on design accuracy and client requirements while ensuring clean, functional code output.",
-    "workType": "client",
-    "orientation": "landscape",
-    "alt": "CSS Score Bug",
-    "defaultSlide": 4,
-    "useIframe": true,
-    "iframeSrc": "./projects/scorebug/scorebug-iframe.html",
-    "mobileImage": "assets/apps/projects/scorebug/scorebug-thumb.webp",
-    "bulletPoints": [
-      "Pure CSS implementation",
-      "Direct codebase integration",
-      "Dynamic content support"
-    ],
-    "toolsUsed": ["HTML/CSS", "VS Code", "Git Co-pilot"],
-    "src": "assets/apps/projects/scorebug/scorebug-thumb.webp",
-    "srcMobile": "assets/apps/projects/scorebug/scorebug-thumb-mobile.webp",
-    "images": [
-      {
-        "src": "assets/apps/projects/scorebug/scorebug1.webp",
-        "alt": "Score Bug V1"
-      },
-      {
-        "src": "assets/apps/projects/scorebug/scorebug2.webp",
-        "alt": "Score Bug V2"
-      },
-      {
-        "src": "assets/apps/projects/scorebug/scorebug3.webp",
-        "alt": "Score Bug V3"
-      }
     ]
   },
   {
-    "type": "video",
+    "type": "image",
     "category": "Web",
     "title": "MitchIvin XP",
-    "subtitle": "Nostalgic operating system recreated as fully interactive portfolio with authentic Windows functionality",
-    "description": "A fully functional Windows XP interface reimagined as a modern portfolio website. This project transforms nostalgia into an interactive experience where portfolio sections become native Windows programs, complete with draggable windows, resizing functionality, and an authentic start menu system.<br><br>Built from scratch using HTML, CSS, and JavaScript, the site features a working Windows Media Player interface with embedded YouTube controls, an era-appropriate MP3 player, and every Windows interaction you remember - from the desktop selection box to double-click desktop icons. The window management system includes proper stacking, taskbar integration, menubars, toolbars, and status bars that all function as expected.<br><br>What started as an ambitious vision with no coding background evolved through hundreds of hours of problem-solving, iteration, and meticulous attention to detail. Each Windows behavior had to be carefully recreated, tested, and refined. The real challenge came in making this desktop-first interface fully responsive while preserving the authentic experience across all devices. Some portfolio conventions were deliberately broken to maintain the Windows illusion.",
+  "headerButton": { "enabled": true, "label": "View My Github", "tooltip": "Open website in new tab", "url": "https://github.com/mitchivin" },
+    "subtitle": "Nostalgic desktop experience meets modern web portfolio",
+    "brief": "Transform nostalgia into a functional portfolio experience that would immediately grab attention and stand out from conventional portfolio sites. Plan to recreate the entire Windows XP desktop interface with authentic behaviors while adapting it showcase my design work.",
+    "description": "A fully functional Windows XP interface reimagined as a modern portfolio website. This project transforms nostalgia into an interactive experience where portfolio sections become native Windows programs, complete with draggable windows, resizing functionality, and an authentic start menu system.<br><br>Built from scratch using HTML, CSS, and JavaScript, the site features a working Windows Media Player interface with embedded YouTube controls, an era-appropriate MP3 player, and every Windows interaction you remember; from the desktop selection box to double-click desktop icons. The window management system includes proper stacking, taskbar integration, menubars, toolbars, and status bars that all function as expected.<br><br>Each Windows behavior had to be carefully recreated, tested, and refined. The real challenge came in making this desktop-first interface fully responsive while preserving the authentic experience across all devices. Some portfolio conventions were deliberately broken to maintain the Windows illusion.",
     "workType": "personal",
     "orientation": "landscape",
     "alt": "MitchIvin XP",
@@ -136,9 +94,9 @@
       "Functional window management system",
       "AI-assisted development from zero coding knowledge"
     ],
-    "toolsUsed": ["HTML/CSS/JS", "VS Code", "Git Co-pilot"],
-    "src": "assets/apps/projects/mitchivinxp/thumb.mp4",
-    "srcMobile": "assets/apps/projects/mitchivinxp/thumb-mobile.mp4",
+    "toolsUsed": ["VS Code", "Git Co-pilot"],
+    "src": "assets/apps/projects/mitchivinxp/thumb.webp",
+    "srcMobile": "assets/apps/projects/mitchivinxp/thumb.webp",
     "images": [
       {
         "src": "assets/apps/projects/mitchivinxp/image1.webp",
@@ -155,11 +113,62 @@
       {
         "src": "assets/apps/projects/mitchivinxp/image4.webp",
         "alt": "Mobile responsive design adaptation"
-      },
-      {
-        "src": "assets/apps/projects/mitchivinxp/image5.webp",
-        "alt": "Detailed UI components and effects"
       }
     ]
+  },
+  {
+    "type": "image",
+    "category": "Web",
+    "title": "CSS Scorebug Component",
+  "headerButton": { "enabled": true, "label": "Visit Keep The Score", "tooltip": "Open website in new tab", "url": "https://keepthescore.com/" },
+    "subtitle": "Custom CSS component development from static design mockup",
+    "brief": "Client needed their static scorebug design converted into a functional CSS component. Pure CSS implementation that integrated with their existing codebase to enable dynamic updates for team names, scores, and colors without requiring new design assets.",
+    "description": "Commissioned to transform a static scorebug design into a functional CSS-based component. Working from a provided design mockup, I built the scorebug to client specifications without using SVGs, ensuring it could integrate directly into their existing codebase.<br><br>The component allows the client to update all dynamic elements including team names, scores, and colors through their codebase without requiring additional design assets. Built with modular CSS that maintains the original design while providing flexibility for content updates.<br><br>Leveraged AI tools to streamline the development process, focusing on design accuracy and client requirements while ensuring clean, functional code output.",
+    "workType": "client",
+    "orientation": "landscape",
+    "alt": "CSS Scorebug Component",
+    "defaultSlide": 0,
+    "bulletPoints": [
+      "Pure CSS implementation",
+      "Direct codebase integration",
+      "Dynamic content support"
+    ],
+    "toolsUsed": ["HTML/CSS", "VS Code", "Git Co-pilot"],
+    "src": "assets/apps/projects/scorebug/scorebug-thumb.webp",
+    "srcMobile": "assets/apps/projects/scorebug/scorebug-thumb.webp",
+    "images": [
+      {
+        "src": "assets/apps/projects/scorebug/scorebug1.webp",
+        "alt": "Score Bug V1"
+      },
+      {
+        "src": "assets/apps/projects/scorebug/scorebug2.webp",
+        "alt": "Score Bug V2"
+      },
+      {
+        "src": "assets/apps/projects/scorebug/scorebug3.webp",
+        "alt": "Score Bug V3"
+      }
+    ]
+  },
+  {
+    "type": "Video",
+    "category": "...",
+    "title": "Coming Soon",
+    "placeholder": true,
+    "workType": "personal",
+    "orientation": "portrait",
+    "alt": "Coming Soon",
+    "src": "assets/apps/projects/placeholder.mp4"
+  },
+  {
+    "type": "Video",
+    "category": "...",
+    "title": "Coming Soon",
+    "placeholder": true,
+    "workType": "personal",
+    "orientation": "landscape",
+    "alt": "Coming Soon",
+    "src": "assets/apps/projects/placeholder.mp4"
   }
 ]

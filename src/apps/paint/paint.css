@@ -1,0 +1,78 @@
+/* paint.css — minimal, XP-friendly styling */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #1b1f2a;
+  color: #fff;
+  font-family:
+    Tahoma,
+    Segoe UI,
+    Verdana,
+    Arial,
+    sans-serif;
+  overflow: hidden;
+}
+
+.paint-root {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: linear-gradient(180deg, #2a2f3d, #1b1f2a);
+  border-bottom: 1px solid #0e1118;
+}
+.toolbar .tool,
+.toolbar .action {
+  all: unset;
+  cursor: pointer;
+  padding: 6px 10px;
+  border: 1px solid #3b4254;
+  background: #262b37;
+  border-radius: 3px;
+  color: #e8eaf0;
+}
+.toolbar .tool.active {
+  background: #31405e;
+  border-color: #476090;
+}
+.toolbar .group {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+}
+.toolbar input[type='color'],
+.toolbar input[type='range'] {
+  cursor: pointer;
+}
+.toolbar .spacer {
+  flex: 1 1 auto;
+}
+
+.canvas-wrap {
+  position: relative;
+  height: 100%;
+}
+#canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  cursor: crosshair;
+}
+
+/* Prevent tap highlight inside iframe */
+*,
+*:focus,
+*:active {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}

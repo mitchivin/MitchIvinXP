@@ -16,12 +16,12 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
     />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta
       name="description"
-      content="A Windows XP desktop simulation built with HTML, CSS, and JavaScript. Explore a classic interface with functional apps and nostalgic design elements. Relive the XP era in your browser."
+      content="Mitch Ivin - Graphic Designer. View my design work through an interactive Windows XP desktop experience. Complete with working applications and authentic retro interface."
     />
     <meta
       name="keywords"
@@ -30,6 +30,30 @@
     <meta name="author" content="Mitch Ivin (mitchellivin@gmail.com)" />
     <link rel="icon" href="./assets/gui/boot/favicon.png" type="image/png" />
     <title>MitchIvin XP</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mitch Ivin — Windows XP Portfolio" />
+    <meta property="og:description" content="A Windows XP–style interactive portfolio showcasing design, video, and UI work by Mitch Ivin." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MitchIvin XP" />
+    <meta property="og:image" content="./assets/gui/boot/boot-wordmark.webp" />
+    <meta property="og:image:alt" content="MitchIvin XP" />
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mitch Ivin — Windows XP Portfolio" />
+    <meta name="twitter:description" content="A Windows XP–style interactive portfolio showcasing design, video, and UI work by Mitch Ivin." />
+    <meta name="twitter:image" content="./assets/gui/boot/boot-wordmark.webp" />
+    <!-- Robots -->
+    <meta name="robots" content="index,follow" />
+    <!-- Resource Hints: warm up critical third-party origins -->
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="dns-prefetch" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <!-- Paint app connection warming -->
+    <link rel="preconnect" href="https://jspaint.app" crossorigin />
+    <link rel="dns-prefetch" href="https://jspaint.app" />
     <!-- Preload Critical Assets -->
     <link rel="preload" href="./assets/gui/bgs/bliss.webp" as="image" fetchpriority="high" type="image/webp" />
     <link rel="preload" href="./assets/gui/desktop/about.webp" as="image" fetchpriority="high" type="image/webp" />
@@ -45,39 +69,66 @@
     />
     <link
       rel="preload"
+      href="./assets/gui/taskbar/taskbar-bg.webp"
+      as="image"
+      fetchpriority="high"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
       href="./assets/gui/taskbar/system-tray.webp"
       as="image"
       fetchpriority="high"
       type="image/webp"
     />
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="./src/styles/main.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/xp.css@0.2.6/dist/XP.css"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/main.css" />
-    <link rel="stylesheet" href="./src/styles/gui/desktop.css" />
-    <link rel="stylesheet" href="./src/styles/gui/taskbar.css" />
-    <link rel="stylesheet" href="./src/styles/gui/startMenu.css" />
-    <link rel="stylesheet" href="./src/styles/gui/window.css" />
-    <link rel="stylesheet" href="./src/styles/gui/windowBars.css" />
-    <link rel="stylesheet" href="./src/styles/gui/boot.css" />
-    <link rel="stylesheet" href="./src/styles/utils/crtEffect.css" />
-    <script>
-      const APP_CONFIG = {
-        REPO_NAME: "shell", // Added for GitHub Pages path handling
-      };
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mitch Ivin",
+      "jobTitle": "Graphic Designer",
+      "url": "https://example.com/",
+      "sameAs": [
+        "https://www.instagram.com/mitchivin",
+        "https://github.com/mitchivin",
+        "https://www.linkedin.com/in/mitchivin/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "MitchIvin XP",
+      "url": "https://example.com/"
+    }
     </script>
   </head>
   <body>
-    <!-- ===== Pre-Boot Overlay ===== -->
+    <!-- Semantics for SEO/AT without changing UI -->
+    <h1 class="sr-only">Mitch Ivin — Graphic Designer Portfolio</h1>
+    <noscript>
+      <p>
+        Welcome to my portfolio. JavaScript is required for the full Windows XP experience. You can reach me on
+        <a href="https://www.linkedin.com/in/mitchivin/" rel="noopener" target="_blank">LinkedIn</a>,
+        view my work on <a href="https://github.com/mitchivin" rel="noopener" target="_blank">GitHub</a>,
+        or see my latest on <a href="https://www.instagram.com/mitchivin" rel="noopener" target="_blank">Instagram</a>.
+      </p>
+    </noscript>
+    <!-- Pre-Boot Overlay -->
     <div id="pre-boot-overlay" class="pre-boot-overlay-style"></div>
-    <!-- ===== Boot Screen ===== -->
+    <!-- Boot Screen -->
     <div id="boot-screen">
       <div class="loading-container">
-        <img
+          <img
           id="boot-logo"
           src="./assets/gui/boot/loading.webp"
           alt="Windows XP Loading"
@@ -110,7 +161,7 @@
         <span>Enter Full Screen (F11)</span>
       </div>
       <div class="boot-bottom-right">
-        <img
+          <img decoding="async"
           src="./assets/gui/boot/boot-wordmark.webp"
           alt="Boot Wordmark"
           draggable="false"
@@ -118,7 +169,7 @@
       </div>
     </div>
     <div id="boot-fadeout-overlay" class="boot-fadeout-overlay-style"></div>
-    <!-- ===== Login Screen ===== -->
+    <!-- Login Screen -->
     <div id="login-screen">
       <div class="login-screen login-screen-initial-display">
         <div class="login-screen-inner">
@@ -142,7 +193,7 @@
             <div class="right">
               <div class="back-gradient">
                 <div class="user">
-                  <img
+          <img decoding="async"
                     src="./assets/gui/boot/userlogin.webp"
                     alt="User Profile"
                     draggable="false"
@@ -181,7 +232,7 @@
         <span class="welcome-image-fallback">Welcome</span>
       </div>
     </div>
-    <!-- ===== Desktop & Icons ===== -->
+    <!-- Desktop & Icons -->
     <div class="desktop">
       <div class="desktop-icons">
         <div class="desktop-icon" data-program-name="about">
@@ -192,14 +243,6 @@
           />
           <span>About Me</span>
         </div>
-        <div class="desktop-icon" data-program-name="projects">
-          <img
-            src="./assets/gui/desktop/projects.webp"
-            alt="My Projects"
-            loading="eager"
-          />
-          <span>My Projects</span>
-        </div>
         <div class="desktop-icon" data-program-name="resume">
           <img
             src="./assets/gui/desktop/resume.webp"
@@ -207,6 +250,14 @@
             loading="eager"
           />
           <span>My Resume</span>
+        </div>
+        <div class="desktop-icon" data-program-name="projects">
+          <img
+            src="./assets/gui/desktop/projects.webp"
+            alt="My Projects"
+            loading="eager"
+          />
+          <span>My Projects</span>
         </div>
         <div class="desktop-icon" data-program-name="contact">
           <img
@@ -218,9 +269,9 @@
         </div>
       </div>
     </div>
-    <!-- ===== Windows Container ===== -->
+    <!-- Windows Container -->
     <div id="windows-container"></div>
-    <!-- ===== Taskbar ===== -->
+    <!-- Taskbar -->
     <div class="taskbar">
       <button class="start-button" id="start-button">
         <img src="./assets/gui/taskbar/start-button.webp" alt="Start" />
@@ -251,9 +302,9 @@
         </div>
       </div>
     </div>
-    <!-- ===== Application Entrypoint ===== -->
+    <!-- Application Entrypoint -->
     <script type="module" src="./src/scripts/main.js"></script>
-    <!-- ===== CRT Effects Overlays ===== -->
+    <!-- CRT Effects Overlays -->
     <div class="crt-effect"></div>
     <div class="crt-scanline"></div>
     <div class="crt-vignette"></div>
