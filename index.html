@@ -45,40 +45,39 @@
     <!-- Robots -->
     <meta name="robots" content="index,follow" />
     <!-- Resource Hints: warm up critical third-party origins -->
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
-    <link rel="dns-prefetch" href="https://unpkg.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+  <!-- Preload shared XP.css so iframes reuse cached bytes (network dedupe) -->
+  <link rel="preload" href="https://unpkg.com/xp.css@0.2.6/dist/XP.css" as="style" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Paint app connection warming -->
-    <link rel="preconnect" href="https://jspaint.app" crossorigin />
-    <link rel="dns-prefetch" href="https://jspaint.app" />
+  <link rel="preconnect" href="https://jspaint.app" crossorigin />
     <!-- Preload Critical Assets -->
-    <link rel="preload" href="./assets/gui/bgs/bliss.webp" as="image" fetchpriority="high" type="image/webp" />
-    <link rel="preload" href="./assets/gui/desktop/about.webp" as="image" fetchpriority="high" type="image/webp" />
-    <link rel="preload" href="./assets/gui/desktop/projects.webp" as="image" fetchpriority="high" type="image/webp" />
-    <link rel="preload" href="./assets/gui/desktop/contact.webp" as="image" fetchpriority="high" type="image/webp" />
-    <link rel="preload" href="./assets/gui/desktop/resume.webp" as="image" fetchpriority="high" type="image/webp" />
+  <!-- Restored high fetchpriority for all primary desktop & taskbar imagery to prevent measurement race affecting maximized window layout -->
+  <link rel="preload" href="./assets/gui/bgs/bliss.webp" as="image" fetchpriority="high" type="image/webp" />
+  <link rel="preload" href="./assets/gui/desktop/about.webp" as="image" fetchpriority="high" type="image/webp" />
+  <link rel="preload" href="./assets/gui/desktop/projects.webp" as="image" fetchpriority="high" type="image/webp" />
+  <link rel="preload" href="./assets/gui/desktop/contact.webp" as="image" fetchpriority="high" type="image/webp" />
+  <link rel="preload" href="./assets/gui/desktop/resume.webp" as="image" fetchpriority="high" type="image/webp" />
     <link
       rel="preload"
       href="./assets/gui/taskbar/start-button.webp"
       as="image"
-      fetchpriority="high"
+  fetchpriority="high"
       type="image/webp"
     />
     <link
       rel="preload"
       href="./assets/gui/taskbar/taskbar-bg.webp"
       as="image"
-      fetchpriority="high"
+  fetchpriority="high"
       type="image/webp"
     />
     <link
       rel="preload"
       href="./assets/gui/taskbar/system-tray.webp"
       as="image"
-      fetchpriority="high"
+  fetchpriority="high"
       type="image/webp"
     />
     <!-- Stylesheets -->
@@ -88,6 +87,19 @@
       href="https://unpkg.com/xp.css@0.2.6/dist/XP.css"
       crossorigin="anonymous"
     />
+    <script>
+      // Performance marks to observe xp.css load relative to start
+      try { performance.mark('xp_preload_hint_injected'); } catch(e){}
+      window.addEventListener('load', () => {
+        try {
+          const xpLink = document.querySelector('link[href*="xp.css@0.2.6"]');
+          if (xpLink && xpLink.sheet) performance.mark('xp_stylesheet_parsed');
+          performance.measure('xp_css_parse_interval','xp_preload_hint_injected','xp_stylesheet_parsed');
+          const m = performance.getEntriesByName('xp_css_parse_interval')[0];
+          if (m) console.log('[Perf] XP.css parse interval (ms):', m.duration.toFixed(2));
+        } catch(e){}
+      });
+    </script>
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
@@ -190,6 +202,7 @@
               </div>
             </div>
             <hr class="login-separator mobile-only" />
+            <div class="login-divider" aria-hidden="true"></div>
             <div class="right">
               <div class="back-gradient">
                 <div class="user">
