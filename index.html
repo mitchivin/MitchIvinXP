@@ -81,12 +81,14 @@
       type="image/webp"
     />
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="./src/styles/main.css" />
+    <!-- Load xp.css FIRST so our main.css (which imports reset.css setting body { font-family: Tahoma,... }) can override it. -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/xp.css@0.2.6/dist/XP.css"
       crossorigin="anonymous"
     />
+    <!-- Our stylesheet last to enforce Tahoma font and local overrides -->
+    <link rel="stylesheet" href="./src/styles/main.css" />
     <script>
       // Performance marks to observe xp.css load relative to start
       try { performance.mark('xp_preload_hint_injected'); } catch(e){}
