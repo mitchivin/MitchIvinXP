@@ -129,6 +129,13 @@
   <body>
     <!-- Semantics for SEO/AT without changing UI -->
     <h1 class="sr-only">Mitch Ivin — Graphic Designer Portfolio</h1>
+    <!-- Responsive wallpaper pre-inserted (hidden) to allow browser to choose optimal size before JS sets desktop background -->
+    <picture id="preload-wallpaper" style="position:absolute;width:0;height:0;overflow:hidden;">
+      <!-- Mobile first source: narrower viewports -->
+      <source media="(max-width: 768px)" srcset="./assets/gui/bgs/blissMobile.webp" type="image/webp" />
+      <!-- Default / desktop -->
+      <img src="./assets/gui/bgs/bliss.webp" alt="" decoding="async" fetchpriority="high" />
+    </picture>
     <noscript>
       <p>
         Welcome to my portfolio. JavaScript is required for the full Windows XP experience. You can reach me on
@@ -326,8 +333,7 @@
     <div class="crt-noise"></div>
     <div class="crt-flicker"></div>
     <div class="crt-aberration"></div>
-    <div class="crt-persistence"></div>
-    <div class="flicker"></div>
+  <div class="crt-persistence"></div>
 
     <div id="logoff-dialog-container" class="logoff-dialog-hidden">
       <div class="logoff-dialog">
